@@ -4,7 +4,9 @@
   "description": "chrome browser extensions which tracks your favorite crypto currency.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "repository": {
     "type": "git",
@@ -21,5 +23,10 @@
   "bugs": {
     "url": "https://github.com/Santhz77/coinTracker/issues"
   },
-  "homepage": "https://github.com/Santhz77/coinTracker#readme"
+  "homepage": "https://github.com/Santhz77/coinTracker#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "webpack": "^5.63.0",
+    "webpack-cli": "^4.9.1"
+  }
 }
