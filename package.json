@@ -1,0 +1,25 @@
+{
+  "name": "cointraker",
+  "version": "1.0.0",
+  "description": "chrome browser extensions which tracks your favorite crypto currency.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Santhz77/coinTracker.git"
+  },
+  "keywords": [
+    "bitcoin",
+    "tracker",
+    "chorome",
+    "extension"
+  ],
+  "author": "santhoshnayak0903@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Santhz77/coinTracker/issues"
+  },
+  "homepage": "https://github.com/Santhz77/coinTracker#readme"
+}
