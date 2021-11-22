@@ -1,4 +1,8 @@
 import axios from "axios";
+import './style.scss';
+
+
+
 const apiurl = "https://api.coindesk.com/v1/bpi/currentprice.json";
 
 const loading = document.querySelector(".loading");
