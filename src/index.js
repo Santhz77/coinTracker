@@ -1,7 +1,7 @@
-import axios from "axios";
+
 import './styles.scss';
 
-
+import axios from "axios";
 
 const apiurl = "https://api.coindesk.com/v1/bpi/currentprice.json";
 

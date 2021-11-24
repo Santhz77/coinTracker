@@ -2,12 +2,16 @@
 
 
  $body-color : white;
+ $bg-color : #4682B4;
+ 
  body {
     font-family: Roboto;
     margin: 0;
-    background: #4682B4;
+    background: $bg-color;
     color: $body-color;
     padding: 10px;
+    width: 400px;
+    height:500px;
   }
 
 
